@@ -1,13 +1,8 @@
 const express = require('express');
 const app = express();
 
-// const moment = require('moment');
-// const $ = require('jquery');
-
 // set the view engine to ejs
 app.set('view engine', 'ejs');
-
-let user = "jean-luc";
 
 // differents routes
     // index 
