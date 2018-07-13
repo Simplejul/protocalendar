@@ -6,7 +6,7 @@ app.set('view engine', 'ejs');
 
 // differents routes
     // index 
-app.get('/', (req, res) => res.render('index.ejs', {user:user}));
+app.get('/', (req, res) => res.render('index.ejs'));
 
     // static files
 app.use(express.static('public'));
